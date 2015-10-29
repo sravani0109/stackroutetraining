@@ -1,0 +1,17 @@
+body{
+  background-color: #D8D8D8;
+}
+.data{
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+div{
+  width: 500px;
+  margin: auto;
+}
+h1,h3{
+  font-family: sans-serif;
+}
