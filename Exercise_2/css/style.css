@@ -1,17 +1,17 @@
 body{
-  background: #e5e4e2;
+  background: url(../img/space7.jpg);
   font-family: sans-serif;
 }
 .hero{
-  height: 550px;
-  background: url(../img/body.jpg) no-repeat;
+  background: url(../img/space6.jpg) no-repeat;
+  height: 615px;
 }
 .hero p{
-  padding: 100px;
-  color: white;
+  padding: 100px 200px;
+  color: #e8eff4;
   width: 400px;
-  font-size: 25px;
-  font-style: italic;
+  font-size: 35px;
+  font-family: 'Satisfy', cursive;
 }
 header{
   height: 60px;
@@ -19,16 +19,18 @@ header{
 header h1{
   text-shadow: 5px 5px 5px blue;
   font-size: 40px;
+  color: #e8eff4;
+  font-family: 'Indie Flower', cursive;
+  font-style: oblique;
 }
 header ul{
   padding: 18px;
 }
 nav li{
   display: inline;
-
 }
 header li a{
-  color: black;
+  color: #e8eff4;
     text-decoration: none;
     font-size: 20px;
 }
@@ -39,6 +41,17 @@ header li a{
 .main h1{
   padding: 15px 0px;
   margin: 0px;
+  color: #e8eff4;
+  font-family: 'Shadows Into Light', cursive;
+}
+.main .grid_4{
+  height: 385px;
+  background: #e8eff4;
+}
+.main .grid_5{
+  width: 335px;
+  height: 220px;
+  margin: 24px 15px 0px 20px;
 }
 .second{
   margin-left: 20px;
@@ -46,17 +59,21 @@ header li a{
 }
 section{
   box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 5px 5px 6px;
 }
 section img{
-  width: 300px;
+  width: 286px;
   margin: 0px;
+  border: 1px solid black;
 }
-section a, footer a{
+section a{
   color: black;
   text-decoration: none;
 }
 section a:hover, footer a:hover, header a:hover {
-  color: blue;
+  color: #726e6d;
 }
 section p{
   text-align: justify;
@@ -64,11 +81,22 @@ section p{
 section .info{
   font-style: italic;
 }
+.sect h4{
+  line-height: 20px;
+}
 footer{
   padding: 30px 0px;
+  color: #e8eff4;
+}
+footer a{
+  color: #e8eff4;
+  text-decoration: none;
 }
 footer li {
   list-style-type: none;
+}
+footer h4{
+  font-family: 'Shadows Into Light', cursive;
 }
 .copyrights p{
   text-align: center;
@@ -77,43 +105,14 @@ footer li {
 section h4{
   margin: 20px 0 0 0;
 }
-.main .sec1{
-  width: 400px;
-  height: 220px;
-  position: relative;
-  left: 0px;
-  top: 50px;
-  margin-left: 0px;
+.main .sec{
+  background: #e8eff4;
+  height: 300px;
+  margin: 20px 0px;
 }
-.main .sec2{
-  width: 440px;
-  height: 220px;
-  position: relative;
-  right: 0px;
-  top: 50px;
-  margin-right: 0px;
-}
-.main .sec3{
-  width: 400px;
-  height: 180px;
-  position: relative;
-  left: 0px;
-  top: 40px;
-  margin-left: 0px;
-  margin-right: 0px;
-  border: 1px solid black;
-}
-.main .dat1{
-  margin-right: 0px;
-  margin-left: 90px;
-}
-.main .dat2{
-  margin-left: 0px;
-  margin-right: 50px;
-}
-.main .dat3{
-  margin-right: 0px;
-  margin-left: 98px;
+.sec .grid_7{
+  margin-left: 15px;
+  margin-right: 10px;
 }
 hr{
 border: 1px solid grey;
